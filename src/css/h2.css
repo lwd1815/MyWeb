@@ -57,4 +57,5 @@ h1{
     text-indent: hanging; /*设置文本的首行缩进*/
     text-transform: none; /*设置文本的转换(针对英文)*/
     text-shadow:red ;  /*设置文本的阴影效果*/
+
 }

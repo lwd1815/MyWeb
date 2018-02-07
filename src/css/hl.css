@@ -1,0 +1,100 @@
+*{margin: 0;
+    padding: 0;}
+.box{
+    background-color: #000;
+    border: 30px red solid;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 10px auto 30px;
+    color: #ffffff;
+}
+/*border-box 俗称怪异盒子,即padding是在width之内的
+  display属性:设置对象的显示方式
+  block呈现块状
+  inline呈现行间
+  inline-block对象呈现为行间-块状元素
+  none 对象呈现无 此时对象在页面上消失
+  text-aling 一般对文字好使,但对于div等若要居中得设置margin 如果设置一个就是上下左右,两个时,第一个代表上下,第二个代表左右,三个,上,左右,下
+  利用上面属性可以行间元素和块状元素相互转换
+*/
+.width{ width: 100%}
+img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*line-height 设置垂直居中*/
+.addtocrad{
+    display: block;
+    width: 180px;
+    height: 41px;
+    background-color: red;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 41px;
+    margin: auto;
+    text-align: center;
+}
+.addtocrad:hover{
+    color: chartreuse;
+    background-color: blue;
+}
+
+li {
+   /* color: red;*/
+}
+li strong{
+    color: #ffff00;
+    background-color: #338ac1;
+    -moz-text-size-adjust: auto;
+}
+[title]{
+    color:green;
+}
+[title~=helos]{
+    color: blue;
+}
+
+ul,ol{
+    margin-left: 20px;
+}
+
+/*body{*/
+    /*margin: auto;*/
+    /*width: 300px;*/
+    /*border: red 2px solid;*/
+/*}*/
+hr{
+    height: 1px;
+    width: 300px;
+    color: blue;
+    margin: 10px 0px;
+}
+
+#myblog{
+    width: 200px;
+    margin: 10px auto;
+}
+
+#table{
+    text-align: center;
+    width: 100%;
+    border: 1px;
+}
+html,body{
+    width: 100%;
+}
+#aside{
+    width: auto;
+    float: left;
+    height: 100%;
+    background-color: green;
+}
+#normal{
+    width: 500px;
+    height: 100%;
+    background-color: red;
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+html,body{
+    height: 100%;
+}
+aside{background: #72c7a1;}
+.main{background: #e0c569}
+
+aside{
+    width: 200px;
+    float: left;
+    height: 200px;
+}
+/*
+当子元素处于浮动状态时,设置负margin>=子元素宽度时,子元素就会叠盖到兄弟元素之上
+把盒子模型由标准换成框架盒子
+border box-sizing border-box
+微组合标签<span>
+双标签,短语标签,行间元素
+没有任何语义,主要用来组合文档中的内行元素
+默认没有任何样式表现,仅为了提供一个结构化的接口,通常使用class样式为其附加语义
+<figure>专门用来装图片的
+<figcaption>用来给图片下面写描述性的文字的
+
+常用技巧 :当需要同时设置英文和中文字体时,英文字体应该写在前面,因为中文字体中往往已经包含了英文的设置
+*/
+.main{
+    margin-left: 210px;
+}
+body{
+    /*字体分为绝对大小和相对大小
+    body中定义的绝对大小可以设置给body和p
+
+    做中文网页的时候,通常使用偶数,以避免文字边缘出现毛边,如14px
+    在pc端最小字号12移动端最小设置20
+
+    font-weight:bold 加粗700
+                normal 相当于400
+    */
+    font-size: 14px;
+}
+h1{
+    /*相对大小
+        相对于body的1.5倍
+    */
+    font-size: 1.5em;
+}
+
+/*css 文本样式 text-x*/
+
+.h{
+    text-align: center;/*设置文本的水平对齐方式,必须用于块状元素*/
+    text-decoration:line-through red; /*设置文本的修饰方式*  none 无修饰  underline 下划线修饰  line-through 删除线 overline 上划线/
+    text-indent: hanging; /*设置文本的首行缩进*/
+    text-transform: none; /*设置文本的转换(针对英文)*/
+    text-shadow:red ;  /*设置文本的阴影效果*/
+}

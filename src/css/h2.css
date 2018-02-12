@@ -114,3 +114,53 @@ gif 无损压缩 支持透明 支持动画 适应场景 图标 小动画 表情�
 空连接
 邮箱链接 当用户点击邮箱链接的时候,会启动电脑上的邮件客户端程序,向指定的邮箱地址发送邮件,如果用户的电脑上未安装邮件客户端程序,那么邮箱链接将无法工作
 */
+
+
+
+/*css的伪类
+  一种动态形成的类选择符,不是预先创建的
+  当html元素具有不同的状态或特征时,伪类可以设定该元素不同状态或特征下的样式效果
+
+    伪类写法
+
+*/
+a{
+    color: #000;
+}
+/*在常用的选择符后面追加一个冒号":" ,然后加上伪类的名称*/
+a:hover{
+      color: red;
+}
+
+/*常用的伪类
+
+link 没有被访问的链接状态
+visited 已经被访问的链接状态
+hover 鼠标停时的状态
+active 被激活时的状态
+focus 获得焦点时的状态
+*/
+
+#al:hover{
+    color: red;
+    font-size: 36px;
+}
+#al:link{
+    color: green;
+    font-size: 24px;
+}
+
+#al:visited{
+    color:blue;
+    font-size: 33px;
+}
+
+#al:active{
+    color: yellow;
+    font-size: 48px;
+}
+
+#al:focus{
+    color: blueviolet;
+    font-size: 50px;
+}

@@ -4,6 +4,7 @@
     <list default="true" id="3b9aa7f5-ac0a-44c1-b9d0-9c6d1dcb0a0d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/css/h2.css" afterPath="$PROJECT_DIR$/src/css/h2.css" />
+      <change beforePath="$PROJECT_DIR$/src/h2.html" afterPath="$PROJECT_DIR$/src/h2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,8 +71,18 @@
       <file leaf-file-name="h2.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/h2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1198">
-              <caret line="97" column="34" lean-forward="false" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+            <state relative-caret-position="1090">
+              <caret line="112" column="47" lean-forward="false" selection-start-line="112" selection-start-column="47" selection-end-line="112" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="h2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/h2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -108,8 +119,8 @@
         <option value="$PROJECT_DIR$/src/hl2.html" />
         <option value="$PROJECT_DIR$/src/hs.html" />
         <option value="$PROJECT_DIR$/src/css/hl.css" />
-        <option value="$PROJECT_DIR$/src/h2.html" />
         <option value="$PROJECT_DIR$/.gitattributes" />
+        <option value="$PROJECT_DIR$/src/h2.html" />
         <option value="$PROJECT_DIR$/src/css/h2.css" />
       </list>
     </option>
@@ -151,7 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,11 +181,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,7 +359,8 @@
       <workItem from="1517797762175" duration="2359000" />
       <workItem from="1517876989602" duration="8232000" />
       <workItem from="1517969065056" duration="2398000" />
-      <workItem from="1518049935805" duration="2151000" />
+      <workItem from="1518049935805" duration="3110000" />
+      <workItem from="1518403209553" duration="2982000" />
     </task>
     <task id="LOCAL-00001" summary="利用webstore第一次提交代码">
       <created>1517969215058</created>
@@ -365,11 +383,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517970827029</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix">
+      <created>1518055014831</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1518055014831</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21024000" />
+    <option name="totallyTimeSpent" value="24965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2293" y="-443" width="3094" height="1690" extended-state="6" />
@@ -412,14 +437,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -665,31 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/h2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/doc/css.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3234">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hl2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="3966" column="46" lean-forward="false" selection-start-line="3966" selection-start-column="46" selection-end-line="3966" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="132" column="48" lean-forward="false" selection-start-line="132" selection-start-column="48" selection-end-line="132" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -777,10 +773,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/p1345.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1333">
+          <caret line="132" column="48" lean-forward="false" selection-start-line="132" selection-start-column="48" selection-end-line="132" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hl2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="3966" column="46" lean-forward="false" selection-start-line="3966" selection-start-column="46" selection-end-line="3966" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/h2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/h2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1198">
-          <caret line="97" column="34" lean-forward="false" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+        <state relative-caret-position="1090">
+          <caret line="112" column="47" lean-forward="false" selection-start-line="112" selection-start-column="47" selection-end-line="112" selection-end-column="47" />
           <folding />
         </state>
       </provider>

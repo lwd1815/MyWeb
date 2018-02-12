@@ -97,3 +97,21 @@ jpg 有损压缩 不支持透明 不支持动画 适应场景 照片文章配图
 png 无损压缩 支持透明 不支持动画 适应场景 透明图 图标 简单背景
 gif 无损压缩 支持透明 支持动画 适应场景 图标 小动画 表情包
 */
+
+/*background基本属性
+    background-color 背景色
+    baskground-image 背景图
+    background-repeat 背景的重复方式
+    background-attachment 背景图的附着位置方式
+    background-position 背景图的位置定位
+    background 复合属性,样式声明的所有背景设置
+*/
+
+/*html超级链接
+
+锚点 anchor 用来在网页内部跳转  用来跳转到同一个页面的特定位置 href="#fonter" id名
+相对路径url 用来在网站内部跳转   斜杠/代表文件夹的分割, ../代表的是上一级的文件夹
+绝对路径url 通常用来在不同网站页面之间进行跳转
+空连接
+邮箱链接
+*/

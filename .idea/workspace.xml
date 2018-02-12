@@ -80,8 +80,8 @@
       <file leaf-file-name="h2.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/h2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1252">
-              <caret line="173" column="14" lean-forward="false" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="14" />
+            <state relative-caret-position="1333">
+              <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -428,7 +428,7 @@
       <workItem from="1517876989602" duration="8232000" />
       <workItem from="1517969065056" duration="2398000" />
       <workItem from="1518049935805" duration="3110000" />
-      <workItem from="1518403209553" duration="7413000" />
+      <workItem from="1518403209553" duration="8481000" />
     </task>
     <task id="LOCAL-00001" summary="利用webstore第一次提交代码">
       <created>1517969215058</created>
@@ -486,11 +486,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518424293426</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix">
+      <created>1518425368746</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1518425368746</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29396000" />
+    <option name="totallyTimeSpent" value="30464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2293" y="-443" width="3094" height="1690" extended-state="6" />
@@ -1153,8 +1160,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/h2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1252">
-          <caret line="173" column="14" lean-forward="false" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="14" />
+        <state relative-caret-position="1333">
+          <caret line="176" column="26" lean-forward="false" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
           <folding />
         </state>
       </provider>
